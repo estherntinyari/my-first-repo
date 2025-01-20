@@ -1,0 +1,90 @@
+
+  body{
+            background-color: hotpink;
+            font-family: arial, sans-serif;
+            margin:0;
+            padding:0;
+            color: aqua;
+        }
+        nav{
+            background-color:beige ;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            position: sticky;
+            align-items: center;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color:mediumaquamarine ;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color:blanchedalmond;
+            color: salmon;
+        }
+        .hero-image{
+          background-image: url("https://cdn.pixabay.com/photo/2016/11/08/05/29/operation-1807543_960_720.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 570px;
+          border-radius: 15px;
+          margin: 20px;
+
+        }
+.
+
+ .About-us{
+            background-color: chartreuse;
+            height: 60px;
+
+        }
+        .about{
+            background-color: blueviolet;
+            height: 60px;
+
+        }
+        .section{
+            background-color: magenta;
+            height: 60px;
+        }
+        #one{
+            background-color: #ffe226;
+            height: 60px;
+        }
+        #two{
+            background-color: brown;
+            height: 60px;
+        }
+        .image-one img{
+            height: 60vh;
+            width: 400px;
+
+        }
+        .image-two img{
+            height: 60vh;
+            width: 400px;
+        }
+        .image-three img{
+            height: 60vh;
+            width: 400px;
+        }
+        .image-four img{
+            height: 60vh;
+            width: 400px;
+        }
+
